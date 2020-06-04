@@ -1,26 +1,33 @@
-# Adding Google Drive to the Windows Explorer sidebar
+# Adding pCloud to the Windows Explorer sidebar
 
-For those of you who use OneDrive or Dropbox you may have noticed that they create non-removable shortcuts in the Explorer sidebar. If you are also a Google Drive user you&#39;ll notice that Google Drive doesn&#39;t create the same shortcuts.
+> **I shamelessly stole this from [svenkle](https://github.com/svenkle/google-drive-add-to-explorer), who shamelessly stole it from [luke.digital](https://luke.digital/adding-google-drive-to-the-explorer-sidebar/). :P**
 
-![Image of first print](http://luke.digital/content/images/2016/08/google-drive-before.jpg)
+For those of you who use OneDrive or Dropbox you may have noticed that they create non-removable shortcuts in the Explorer sidebar.<br>
+If you are also a pCloud user you&#39;ll notice that pCloud doesn&#39;t create the same shortcuts.
 
-Following the steps below you can create the same shortcut for Google Drive.
+![before](images/before.png)
 
-**Disclaimer: This was only tested on Windows 10 Professional and Windows 8.1 Professional. Ensure you backup your registry before making any changes.**
+Following the steps below you can create the same shortcut for pCloud.
+
+**Disclaimer: This was only tested on Windows 10. Ensure you backup your registry before making any changes.**
+
+<hr>
 
 ## Installation
 
 - Download this repository.
-- Open  **GoogleDrive.reg**  in your favourite text editor.
-- Update the %USERPROFILE% values for TargetFolderPath so that the final value is the full path to your Google Drive folder. Ensure that you use `\\` in the folder path structure. eg. `"TargetFolderPath"="C:\\Users\\User name\\Google Drive"`
+- Open  **pCloud.reg**  in your favorite text editor.
+- Make sure every path is set appropriately. (`@="C:\\Program Files\\pCloud Drive\\pCloud.exe,0"` and `"TargetFolderPath"="P:\\"`)
 - Save all changes
 - Double-click  **GoogleDrive.reg**  to install and ensure you click yes when prompted.
 
+<hr>
+
 ## Results
 
-![Image of first print](http://luke.digital/content/images/2016/08/google-drive-after.jpg)
+![after](images/after.png)
 
 
-You should now see Google Drive pinned to the Explorer sidebar.
+You should now see pCloud pinned to the Explorer sidebar.
 
 Credits: [**luke.digital**](http://luke.digital/adding-google-drive-to-the-explorer-sidebar/)
