@@ -11,17 +11,13 @@ Following the steps below you can create the same shortcut for pCloud.
 
 **Disclaimer: This was only tested on Windows 10. Ensure you backup your registry before making any changes.**
 
-<hr>
-
 ## Installation
 
 - Download this repository.
 - Open  **pCloud.reg**  in your favorite text editor.
 - Make sure every path is set appropriately. (`@="C:\\Program Files\\pCloud Drive\\pCloud.exe,0"` and `"TargetFolderPath"="P:\\"`)
 - Save all changes
-- Double-click  **GoogleDrive.reg**  to install and ensure you click yes when prompted.
-
-<hr>
+- Double-click  **pCloud.reg**  to install and ensure you click yes when prompted.
 
 ## Results
 
